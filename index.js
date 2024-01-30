@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     fromDropDown.value = 'USD';
-    toDropDown.value = 'INR';
+    toDropDown.value = 'SOS';
 
     let convertCurrency = async () => {
         const amount = document.querySelector("#amount").value;
@@ -130,4 +130,5 @@ currencies = [
     "AUD",
     "KES",
     "USD",
+    "SOS",
 ];
